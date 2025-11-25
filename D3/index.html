@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CSS - Prep</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+            .monoton-regular {
+            font-family: "Monoton", sans-serif;
+            font-weight: 400;
+            font-size: 100px;
+            font-style: normal;
+            margin:0;
+            border:0;
+            }
+            body {
+                margin:0
+            }
+            img{
+                width: 100%;
+            }
+            .move-text {
+                padding: 20px;
+            }
+            .input-field{
+                display: block;
+                width: 100%;
+            }
+
+            #footer-wrapper1 {
+                border: 1px;
+                margin: 1px;
+                padding: 1px;
+                color: white;
+            }
+        
+            #footer-wrapper2 {
+                max-width: 400px;
+                margin: 0 auto;
+                padding: 50px;
+                
+            }
+
+        </style>  
+            
+    </head>
+    <body>
+        <img src="london.jpg" alt="Tower Bridge"/>
+        <div class="move-te">
+            <p> Author:<a class="author-link" href="https://www.instagram.com/rrxerrerre/" target="_blank"> Riccardo Randazzo</a></p>
+            <h1 class="monoton-regular"> London</h1>
+            <h5>United Kingdom</h5>
+            <h4>"A City of Endless Wonder"</h4>
+            <hr>
+            <p>
+            London is a city that never fails to impress. From its iconic skyline and rich history to its cutting-edge
+            fashion, art, and food scenes, London blends the old and the new in the most spectacular way. Stroll along
+            the Thames, admire the timeless beauty of Big Ben and Buckingham Palace, or lose yourself in the vibrant
+            streets of Soho and Shoreditch. With its world-class museums, theaters, and a culture that celebrates
+            diversity, London truly offers something magical for everyone — a place where every corner tells a story and
+            every moment feels extraordinary.
+            </p>
+            <h4>Ride Through the Heart of London</h4>
+            <hr>
+            <p>
+            The city hums before sunrise. A low buzz of buses, a shimmer of headlights on wet pavement, and Emma standing on
+            the corner of King’s Cross, scanning for that flash of neon green. She spots it — a Lime bike leaning under a
+            lamppost. Tap, unlock, click. The screen glows Ready to Ride.
+
+            She pushes off, tires humming against the road, and the chill morning air rushes past. London unfolds like a
+            movie reel — Georgian townhouses of Bloomsbury blur into the sleek glass lines of Fitzrovia. By the time she
+            reaches Regent’s Park, the city is golden. Joggers pass, dogs bark, and sunlight cuts through the trees like
+            spotlights on a stage.
+
+            A left turn onto Marylebone High Street — the rhythm picks up. The scent of espresso drifts from café doors,
+            shopkeepers roll up shutters, and London begins to move. She glides through Oxford Circus, the chaos somehow
+            choreographed — red buses, black cabs, and a thousand footsteps keeping time with her heartbeat.
+
+            Carnaby Street hits like a scene change: color, music, and motion everywhere. Street art flashes by, laughter
+            bounces off the brick walls, and the sound of a guitar echoes from somewhere unseen. She smiles, weaving through
+            the crowd, the Lime moving as smoothly as her mood.
+
+            Down to the river — Westminster Bridge rising ahead. The skyline opens wide: Big Ben ticking in the distance,
+            the London Eye turning slow and steady. She stops mid-bridge, breathless, camera in hand. The shot is perfect —
+            the city glowing in morning light, endless and alive.
+
+            She rides along the South Bank, the Thames sparkling beside her, the air alive with the pulse of Londoners and
+            travelers. For a moment, she feels part of it all — the rush, the rhythm, the beauty in motion.
+
+            By the time Emma docks the Lime near the Tate Modern, the sun is setting and the city is alive in lights. She
+            looks back once, smiles, and thinks — this is how London was meant to be seen.
+            </p>
+            <hr>
+        </div>
+        
+        <div id="footer-wrapper1" style="background: linear-gradient(45deg, #b908d8, #9E9E9E);">
+            <ul>
+                <li>Location: Situated in the south-east of England on the River Thames.</li>
+                <li>Population: Approximately 8.8 to 9 million people.</li>
+                <li>Curiosity: The City of London is the smallest city in the United Kingdom.</li>
+                <li>Curiosity: The British government has employed cats since the 16th century.</li>
+                <li>Curiosity: At least six ravens live in the Tower of London.</li>
+            </ul>
+        </div>
+        
+        <div id="footer-wrapper2">
+            <form onsubmit="alert ('Your message has been submitted')">
+                <label for="email-input"> Your email:</label>                                                                                  
+                <input class="input-field" id="email-input" type="email" placeholder="Your email">
+                <label for="text-area">Write your message here:</label>
+                <textarea cols="30" rows="10" id="text-area" class="input-field" placeholder="Write your message here"></textarea>
+                <button type="submit"> Contact us</button> 
+            </form>
+        </div>
+    </body>
+
+</html>
