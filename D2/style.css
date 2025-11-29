@@ -4,6 +4,11 @@ h1 {
 form {
   width: max-content;
   margin-inline: auto;
+  text-align: center;
+}
+.box-one {
+  box-shadow: 50px -42px 33px -3px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 input {
   margin-bottom: 10px;
@@ -13,4 +18,7 @@ label {
 }
 #checkbox-section label {
   display: inline-block;
+}
+button {
+  margin-top: 15px;
 }

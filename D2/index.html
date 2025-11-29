@@ -10,7 +10,7 @@
     <h1>Streaming Music App</h1>
 
     <form onsubmit="alert('Form has been sent')">
-      <fieldset>
+      <fieldset class="box-one">
         <legend>About you</legend>
         <div>
           <label for="name"> Name</label>
@@ -37,8 +37,8 @@
           <input id="number" type="number" placeholder="Your phone number" />
         </div>
       </fieldset>
-      <fieldset id="checkbox-section">
-        <legend>What kind of music do you play?</legend>
+      <fieldset id="checkbox-section" class="box-two">
+        <legend>What genre of music do you like?:</legend>
 
         <input type="checkbox" id="Classic" />
         <label for="checkbox"> Classic</label>
@@ -53,7 +53,7 @@
         <label for="checkbox"> Electronic</label>
       </fieldset>
       <div>
-        <button type="submit">Send form</button>
+        <button type="submit" class="button">Send form</button>
       </div>
     </form>
   </body>
