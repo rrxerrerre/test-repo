@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+form {
+  width: max-content;
+  margin-inline: auto;
+}
+input {
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+}
+#checkbox-section label {
+  display: inline-block;
+}

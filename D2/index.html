@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Form e input fields.</title>
-</head>
-<body>
-    <h1>Interazioni con l'utente.</h1>
-   <form onsubmit="alert('form inviato')">
-    <div>
-        <input type="text" placeholder="Your name">
-    </div>
-    <div>
-    <input type="email" placeholder="Your email">
-    </div>
-    <div>
-    <input type="password" placeholder="Your password">
-    </div>
- <div>
-    <input type="checkbox" name="checkbox"/>
-    </div>
-    <div>
-        <input type="color" name="color"/>
-    </div>
-    <div>
-    <input type="time" name="time"/>
-    </div>
-    <div>
-        <input type="datetime-local" name="datetime-local"/>
-    </div>
-    <div>
-        <input type="range" name="range" min="0" max="25"/>
-    </div>
-    <button type="submit"> INVIA FORM</button>
+  </head>
+  <body>
+    <h1>Streaming Music App</h1>
+
+    <form onsubmit="alert('Form has been sent')">
+      <fieldset>
+        <legend>About you</legend>
+        <div>
+          <label for="name"> Name</label>
+          <input id="text" type="text" placeholder="Your name" />
+        </div>
+        <div>
+          <label for="surname"> Surname</label>
+          <input id="text" type="text" placeholder="Your surname" />
+        </div>
+        <div>
+          <label for="email"> Email</label>
+          <input id="email" type="email" placeholder="Your email" />
+        </div>
+        <div>
+          <label for="password"> Password</label>
+          <input id="password" type="password" placeholder="Your password" />
+        </div>
+        <div>
+          <label for="date"> D.O.B.</label>
+          <input id="date" type="date" name="date" />
+        </div>
+        <div>
+          <label for="number"> Telephone number:</label>
+          <input id="number" type="number" placeholder="Your phone number" />
+        </div>
+      </fieldset>
+      <fieldset id="checkbox-section">
+        <legend>What kind of music do you play?</legend>
+
+        <input type="checkbox" id="Classic" />
+        <label for="checkbox"> Classic</label>
+
+        <input type="checkbox" id="Rock" />
+        <label for="checkbox"> Rock</label>
+
+        <input type="checkbox" id="Pop" />
+        <label for="checkbox"> Pop</label>
+
+        <input type="checkbox" id="Electronic" />
+        <label for="checkbox"> Electronic</label>
+      </fieldset>
+      <div>
+        <button type="submit">Send form</button>
+      </div>
     </form>
-</body>
+  </body>
 </html>
